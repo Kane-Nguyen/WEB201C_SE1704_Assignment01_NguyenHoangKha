@@ -1,0 +1,145 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+   width: 99%;
+   height: 100%;
+  
+   border: 3px double black;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 300px;
+        
+    border-bottom: 3px double black;
+
+}
+.img-space{
+    border-right: 3px double black;
+
+    width: 60%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+    
+   
+
+}
+.img{
+    width: 500px;
+    object-fit: cover;
+  
+
+
+}
+.activity{
+    border-bottom: 3px double black;
+    width: 40%;
+    height: 300px;
+}
+.slogan {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px double black;
+}
+.slogan h3 {
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+
+}
+.form-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-form{
+        display: flex;
+        justify-content: center;
+     
+     
+}
+.header-form h3{
+    text-align: center;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 30px;
+    width: 900px;
+}
+.info{
+        display: flex;
+        align-items: center;
+        
+        flex-direction: column;
+}
+#email{
+    width: 500px;
+}
+#fullname{
+    margin-top: 10px;
+    width: 500px;
+
+}
+.sex{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.country{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hobby{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.introduction{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    
+}
+.upload label {
+    padding-bottom: 30px;
+    width: 900px;
+    border-bottom: 3px solid #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.password .wrapper-password{
+    padding-bottom: 30px;
+    width: 900px;
+    border-bottom: 3px solid #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#password{
+    margin-bottom: 5px;
+    width: 200PX;
+}
+.submit{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.copy-writer{
+    text-align: center;
+    border-top: 3px double black;
+}
